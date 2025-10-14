@@ -9,6 +9,7 @@
       <link rel='stylesheet' type='text/css' href='./lib/css/cerner-smart-embeddable-lib-1.0.0.min.css'>
     -->
     <title>Example-SMART-App</title>
+    
   </head>
   <body>
     <!-- Required JS files to enable this page to embed within an MPage -->
@@ -19,8 +20,8 @@
     -->
 
     <!-- FHIR Client JS Library -->
-    <script src='./lib/js/fhir-client-v0.1.12.js'></script>
-
+    <!-- <script src='./lib/js/fhir-client-v0.1.12.js'></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/fhirclient/build/fhir-client.js"></script>
     <!-- Prevent session bleed caused by single threaded embedded browser and sessionStorage API -->
     <!-- https://github.com/cerner/fhir-client-cerner-additions -->
     <script src='./lib/js/fhir-client-cerner-additions-1.0.0.js'></script>
